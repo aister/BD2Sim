@@ -1,0 +1,79 @@
+<style>
+  body {
+    background: #4c4c4c;
+  }
+  #main {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .section {
+    width: calc(50% - 30px);
+    padding: 10px;
+    background: #e9e9e9;
+    margin: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .question {
+    background: #202020;
+    color: white;
+    margin: -10px;
+    padding: 10px;
+  }
+</style>
+<div id="main">
+  <div style="width: 100%; color: #e9e9e9; margin-bottom: 10px">
+    <h1>BattleDawn 2 Battle Sim</h1>
+    <h2>Frequently Asked Questions</h2>
+    <a style="color: #e9e9e9; text-decoration: none" href="./index.html">&lt;&lt; Back to Sim</a>
+  </div>
+
+  <div class="section">
+    <div class="question">How can I put two or more chassis into the sim?</div>
+    <div class="answer">
+      <p>Short answer is, you can't. Mixed chassis is more complicated, since there are prioritized targeting. And my brain cannot handle all the different variables that might and will happen in mixed chassis. So I've decided to ignore mixed chassis, for now.</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="question">How can I put avatar and unit's level?</div>
+    <div class="answer">
+      <p>Same answer to the above question. You can't. It is too complicated, and plus you cannot know the level of your enemy's avatar and unit anyway.</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="question">There are some inaccuracies in the sim</div>
+    <div class="answer">
+      <p>Yes. There are. Mostly to do with avatar and unit's level. But also the behaviour of cobra is still not really accurate. Currently the sim is assuming that:</p>
+      <ul>
+        <li>The cobra will revive the first units that got damaged that round</li>
+        <li>The cobra will ignore original units count and might revive more units that was lost</li>
+        <li>All the cobra will be killed once all units are dead.</li>
+      </ul>
+      <p>Fixing these problems proved to be difficult and complicated. So I, again, decided to ignore them.</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="question">How can I put turret's level?</div>
+    <div class="answer">
+      <p>I'm working on it.</p>
+    </div>
+  </div>
+
+
+  <div class="section" style="width: 100%" id="contact">
+    <div class="question">How can I contact you?</div>
+    <div class="answer">
+      <p>Before you contact me, please take a look at the questions above and see if your question has already been answered.</p>
+      <p>In case it hasn't, or you believe you can help me fix some of those issues. You can contact me via:</p>
+      <ul>
+        <li>Email: aister.pendragon@gmail.com</li>
+        <li>Discord: Aister#0211</li>
+      </ul>
+    </div>
+  </div>
+</div>
